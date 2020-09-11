@@ -26,6 +26,10 @@ a:hover {
 	color: #23527c;
 }
 
+hr  {
+	color: #666666;
+}
+
 .container {
 	max-width: 1200px;
 	margin: auto;
@@ -354,6 +358,7 @@ textarea {
 	/* grid-row: 1 / span 3; */
 	grid-area: 1 / 2 / span 3 / 3;
 	outline: 0;
+	resize: vertical;
 }
 
 input[type = "submit"] {
@@ -433,8 +438,8 @@ img.top {
 		top: 50px;
 		height: 400px;
 		width: 98%;
-		transform: translateY(-900px);
-		transition: transform 1.5s ease-in-out 0.01s;
+		transform: translateY(-400px);
+		transition: transform 1.0s ease-in-out;
 	}
 	
 	.nav-bar li {
